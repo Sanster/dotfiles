@@ -7,10 +7,6 @@
 	br = branch -vv
 	co = checkout
 	df = diff
-        first = "!git checkout `git log --oneline --reverse | head -n 1 | awk '{print $1}'`"
-	last = checkout master
-	next = "!git checkout $(git log --oneline --reverse --ancestry-path 'HEAD..master' | head -n 1 | awk '{print $1}')"
-	pre = checkout 'HEAD^'
-
+        cp = cherry-pick
 [push]
 	default = matching
