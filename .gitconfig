@@ -10,3 +10,5 @@
         cp = cherry-pick
 [push]
 	default = matching
+[core]
+	editor = vim
