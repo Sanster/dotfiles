@@ -24,3 +24,7 @@ autoload -U compinit && compinit -u
 COMPLETION_WAITING_DOTS="true"
 
 export TERM=xterm-256color
+
+# alias
+# apt-get install xclip
+alias xc='xclip'
