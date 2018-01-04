@@ -27,4 +27,4 @@ export TERM=xterm-256color
 
 # alias
 # apt-get install xclip
-alias xc='xclip -selection primary -f | xclip -selection clipboard'
+alias xc='xargs echo -n | xclip -selection primary -f | xclip -selection clipboard'
