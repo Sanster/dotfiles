@@ -26,6 +26,7 @@ autoload -U compinit && compinit -u
 # 按tab键补全命令的时候,如果没什么可补全的就会出现三个红点
 COMPLETION_WAITING_DOTS="true"
 
+# to enable zsh-autosuggestions works in tmux
 export TERM=xterm-256color
 
 # alias
