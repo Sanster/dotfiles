@@ -1,3 +1,6 @@
+" Remove | in window split bar
+set fillchars+=vert:\ 
+
 " The width of a TAB is set to 4
 set tabstop=4
 
