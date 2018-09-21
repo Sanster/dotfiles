@@ -32,3 +32,8 @@ export TERM=xterm-256color
 # alias
 # apt-get install xclip
 alias xc='xargs echo -n | xclip -selection primary -f | xclip -selection clipboard'
+
+alias kcat='kitty icat'
+
+# press CTRL-y to quit fzf and copy the select line to clipboard
+alias fzf="fzf --bind 'f1:execute(less -f {}),ctrl-y:execute-silent(echo {} | pbcopy)+abort'"
